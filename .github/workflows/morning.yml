@@ -1,7 +1,7 @@
 name: Slack Morning Mission
 on:
   schedule:
-    - cron: '*/5 * * * *'   # 매일 22:00 UTC = 한국 07:00
+    - cron: '0 22 * * *'   # 매일 07:00 KST (UTC 22:00 전날)
   workflow_dispatch:        # 필요 시 수동 실행 버튼
 
 jobs:
