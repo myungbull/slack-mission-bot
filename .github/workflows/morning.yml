@@ -16,4 +16,4 @@ jobs:
       - name: Send mission
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-        run: python send_mission_now.py
+        run: python mission.py
